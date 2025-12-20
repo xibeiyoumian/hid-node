@@ -15,7 +15,7 @@ if [ ${RET_VAL} -ne 0 ]; then
     exit 1
 fi
 
-CHAIN_NAMESAPCE=devnet
+CHAIN_NAMESPACE=testnet
 
 # Setting up config files
 rm -rf /root/.hid-node/
